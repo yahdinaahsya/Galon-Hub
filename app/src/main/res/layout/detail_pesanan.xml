@@ -55,7 +55,6 @@
 
     <TextView
         android:id="@+id/textView55"
-        a
         android:layout_width="357dp"
         android:layout_height="47dp"
         android:layout_marginTop="8dp"
@@ -84,21 +83,11 @@
         android:layout_height="wrap_content"
         android:text="Jumlah Galon"
         android:textColor="#1E1F2E"
-        android:textSize="12dp"
+        android:textSize="12sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/textView55"
         app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="@+id/textView55"
         app:layout_constraintTop_toBottomOf="@+id/textView57" />
-
-    <TextView
-        android:id="@+id/textView59"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="3"
-        android:textColor="@color/black"
-        android:textSize="10dp"
-        tools:layout_editor_absoluteX="281dp"
-        tools:layout_editor_absoluteY="160dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
