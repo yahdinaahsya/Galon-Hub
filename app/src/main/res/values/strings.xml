@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">GalonHub</string>
 
+    <!--  UNIVERSAL  -->
+    <string name="simbollokasibiru">Simbol Lokasi</string>
+    <string name="buttonkembali">Kembali</string>
+
     <!-- Layout homepage   -->
     <!--    Text    -->
     <string name="cari_homepage">Cari</string>
@@ -107,12 +111,35 @@
     <string name="airbiasa_dp">Gambar Air Biasa</string>
     <string name="galonaqua_dp">Gambar Galon Aqua + Isi</string>
     <!--  End Detail Pesanan  -->
-    
+
     <!--  Layout lupa_password  -->
-        <!--  Text  -->
-        <string name="lupapassword_lp">Lupa Kata Sandi?</string>
-        <string name="inputemail_lp">Masukkan Alamat Email</string>
-        <string name="deskripsi_lp">Kami akan mengirimkan pesan kepada Anda untuk menetapkan atau mereset kata sandi baru Anda.</string>
-        <string name="buttonkirim_lp">Kirim</string>
+    <!--  Text  -->
+    <string name="lupapassword_lp">Lupa Kata Sandi?</string>
+    <string name="inputemail_lp">Masukkan Alamat Email</string>
+    <string name="deskripsi_lp">Kami akan mengirimkan pesan kepada Anda untuk menetapkan atau mereset kata sandi baru Anda.</string>
+    <string name="buttonkirim_lp">Kirim</string>
     <!-- End lupa_password   -->
+
+    <!--  Layout mitra_terdekat  -->
+    <!--  Text  -->
+    <string name="mitraterdekat_mt">Mitra Terdekat di Lokasi Anda</string>
+    <string name="ubah_mt">Ubah</string>
+    <string name="galonro_mt">Galon RO</string>
+    <string name="yayawater_mt">Yaya Water</string>
+    <string name="aliencro_mt">Alien RO</string>
+    <string name="depotfitext_mt">Depot Fitex</string>
+    <string name="jarak1_mt">0,3 KM</string>
+    <string name="jarak2_mt">0,8 KM</string>
+    <string name="jarak3_mt">1 KM</string>
+    <string name="jarak4_mt">5 KM</string>
+    <string name="alamat1_mt">Alamat : 26179 Akihabara, Tokyo, Jepang</string>
+    <string name="alamat2_mt">Alamat : 102920 Akihabara, Tokyo, Jepang</string>
+    <string name="alamat3_mt">Alamat :468+BT Konoha, Tokyo, Jepang</string>
+    <string name="alamat4_mt">Alamat : 11292 Harajuku, Tokyo, Jepang</string>
+    <string name="nomorhp1_mt">Nomor HP : 08127028390</string>
+    <string name="nomorhp2_mt">Nomor HP : 08261821912</string>
+    <string name="nomorhp3_mt">Nomor HP : 081269393278</string>
+    <string name="nomorhp4_mt">Nomor HP : 085888812191</string>
+    <string name="keteranganwaktu_mt">(Buka 24 Jam)</string>
+    <!--  End mitra_terdekat  -->
 </resources>
