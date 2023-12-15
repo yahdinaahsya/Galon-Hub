@@ -5,15 +5,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class RegisterActivity : AppCompatActivity() {
+class ProfilActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.register)
+        setContentView(R.layout.profil)
 
-        val tombol = findViewById<Button>(R.id.button2)
+        val tombol = findViewById<Button>(R.id.button)
         tombol.setOnClickListener{
-            val halamanBaru = Intent(this@RegisterActivity, LoginActivity::class.java)
-            halamanBaru.putExtra("login", true)
+            val halamanBaru = Intent(this@ProfilActivity, HomeActivity::class.java)
+            halamanBaru.putExtra("login", false)
             startActivity(halamanBaru)
         }
     }

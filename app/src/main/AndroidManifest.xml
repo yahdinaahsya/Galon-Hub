@@ -14,6 +14,13 @@
         tools:targetApi="31">
         <activity
             android:name=".MitraTerdekatActivity"
+            android:name=".LupaPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilActivity"
             android:exported="false" />
         <activity
             android:name=".HomeActivity"
