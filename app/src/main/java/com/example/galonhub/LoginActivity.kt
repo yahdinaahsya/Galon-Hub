@@ -23,5 +23,11 @@ class LoginActivity : AppCompatActivity() {
             val halamanBaru = Intent(this@LoginActivity, RegisterActivity::class.java)
             startActivity(halamanBaru)
         }
+
+        val tombol_lupaPassword = findViewById<TextView>(R.id.textView15)
+        tombol_lupaPassword.setOnClickListener {
+            val halamanBaru = Intent( this@LoginActivity, LupaPasswordActivity::class.java)
+            startActivity(halamanBaru)
+        }
     }
 }
