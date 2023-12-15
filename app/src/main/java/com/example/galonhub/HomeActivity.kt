@@ -10,10 +10,20 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.homepage)
 
+        val intent = intent
+        val statusLogin = intent.getBooleanExtra("login", false)
+
+        val login = statusLogin
+
         val tombol = findViewById<ImageView>(R.id.imageView9)
         tombol.setOnClickListener {
-            val halamanBaru = Intent(this@HomeActivity, ProfilActivity::class.java)
-            startActivity(halamanBaru)
+            if (login){
+                val halamanBaru = Intent(this@HomeActivity, ProfilActivity::class.java)
+                startActivity(halamanBaru)
+            }else{
+                val halamanBaru = Intent(this@HomeActivity, LoginActivity::class.java)
+                startActivity(halamanBaru)
+            }
         }
     }
 }
