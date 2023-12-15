@@ -5,6 +5,14 @@
     <string name="simbollokasibiru">Simbol Lokasi</string>
     <string name="buttonkembali">Kembali</string>
     <string name="logogalonhub">Logo GalonHub</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="fotoprofil">Foto Profil</string>
+    <string name="nama">Kobo Kanaeru</string>
+    <string name="nomorhp">(+62 810 2719 1202)</string>
+    <string name="lokasi">Akihabara 1291 Block 1, Tokyo, Jepang, +17219HT 16218</string>
+    <string name="ceklisbiru">Ceklis Biru</string>
+    <string name="ceklisabuabu">Ceklis Abu Abu</string>
+    <string name="aturtanggal">Kalender</string>
 
     <!-- Layout homepage   -->
     <!--    Text    -->
@@ -143,4 +151,36 @@
     <string name="nomorhp4_mt">Nomor HP : 085888812191</string>
     <string name="keteranganwaktu_mt">(Buka 24 Jam)</string>
     <!--  End mitra_terdekat  -->
+
+    <!--  Layout checkout  -->
+    <!--  Text  -->
+    <string name="pembayaran_checkout">Pembayaran</string>
+    <string name="detailpesanan_checkout">Detail Pesanan</string>
+    <string name="airaqua_checkout">1. Air Aqua</string>
+    <string name="airbiasa_checkout">2. Air Biasa</string>
+    <string name="harga1_checkout">Rp 28.000</string>
+    <string name="subtotal_checkout">SubTotal   =</string>
+    <string name="harga2_checkout">Rp 35.000</string>
+    <string name="kalidua_checkout">x 2</string>
+    <string name="kalisatu_checkout">x 1</string>
+    <string name="jadwal_checkout">Jadwal Pengiriman</string>
+    <string name="kirimsekarang_checkout">Kirim Sekarang (10 Menit)</string>
+    <string name="aturjadwal_checkout">Atur Jadwal</string>
+    <string name="metodepembayaran_checkout">Metode Pembayaran</string>
+    <string name="saldo_checkout">Saldo (Rp 80.000,00)</string>
+    <string name="tfbank_checkout">Transfer Bank</string>
+    <string name="promo">PromoHaus1</string>
+    <string name="remove_checkout">Remove</string>
+    <string name="ongkir_checkout">Ongkir : Rp 2.000</string>
+    <string name="pesansekarang_checkout">Pesan Sekarang</string>
+    <string name="subtotal2_checkout">Subtotal</string>
+    <string name="ongkir2_checkout">Ongkir</string>
+    <string name="admin_checkout">Admin</string>
+    <string name="voucher_checkout">Kode Voucher</string>
+    <string name="total_checkout">Total</string>
+    <string name="hargasubtotal_checkout">Rp 35.000,00</string>
+    <string name="hargaongkir_checkout">Rp 2.000,00</string>
+    <string name="hargaadmin_checkout">Rp 1.000,00</string>
+    <string name="hargatotal_checkout">Rp 38.000,00</string>
+    <!--  End checkout  -->
 </resources>
