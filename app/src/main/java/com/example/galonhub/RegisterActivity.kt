@@ -12,7 +12,7 @@ class RegisterActivity : AppCompatActivity() {
 
         val tombol = findViewById<Button>(R.id.button2)
         tombol.setOnClickListener{
-            val halamanBaru = Intent(this@RegisterActivity, HomeActivity::class.java)
+            val halamanBaru = Intent(this@RegisterActivity, LoginActivity::class.java)
             halamanBaru.putExtra("login", true)
             startActivity(halamanBaru)
         }
