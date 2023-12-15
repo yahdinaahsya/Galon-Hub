@@ -2,109 +2,117 @@
     <string name="app_name">GalonHub</string>
 
     <!-- Layout homepage   -->
-        <!--    Text    -->
-        <string name="cari_homepage">Cari</string>
-        <string name="halouser_homepage">Halo, Kobo!</string>
-        <string name="welcome_homepage">Selamat datang, di Galon Hub!</string>
-        <string name="deskripsi1_homepage">Temukan kemudahan pemesanan air</string>
-        <string name="deskripsi2_homepage">galon terdekat dengan beberapa</string>
-        <string name="deskripsi3_homepage">sentuhan dilayar ponsel Anda.</string>
-        <string name="layanan_homepage">Layanan yang Tersedia di Kawasan Anda</string>
-        <string name="namadaerah_homepage">Tokyo, Jepang</string>
-        <string name="pickup_homepage">PICK UP</string>
-        <string name="delievery_homepage">DELIVERY</string>
-        <string name="aktivitaspemesanan_homepage">Aktifitas Pemesanan</string>
-        <string name="namamitra_homepage">Yaya Water - </string>
-        <string name="daerahmitra_homepage">Akihabara, Tokyo</string>
-        <string name="tanggalwaktu_homepage">25 Oktober 2023, 10.23</string>
-        <string name="harga_homepage">Rp 50.000,00</string>
-        <string name="poin">+20 poin</string>
-        <string name="status">Dalam Perjalanan</string>
+    <!--    Text    -->
+    <string name="cari_homepage">Cari</string>
+    <string name="halouser_homepage">Halo, Kobo!</string>
+    <string name="welcome_homepage">Selamat datang, di Galon Hub!</string>
+    <string name="deskripsi1_homepage">Temukan kemudahan pemesanan air</string>
+    <string name="deskripsi2_homepage">galon terdekat dengan beberapa</string>
+    <string name="deskripsi3_homepage">sentuhan dilayar ponsel Anda.</string>
+    <string name="layanan_homepage">Layanan yang Tersedia di Kawasan Anda</string>
+    <string name="namadaerah_homepage">Tokyo, Jepang</string>
+    <string name="pickup_homepage">PICK UP</string>
+    <string name="delievery_homepage">DELIVERY</string>
+    <string name="aktivitaspemesanan_homepage">Aktifitas Pemesanan</string>
+    <string name="namamitra_homepage">Yaya Water - </string>
+    <string name="daerahmitra_homepage">Akihabara, Tokyo</string>
+    <string name="tanggalwaktu_homepage">25 Oktober 2023, 10.23</string>
+    <string name="harga_homepage">Rp 50.000,00</string>
+    <string name="poin">+20 poin</string>
+    <string name="status">Dalam Perjalanan</string>
 
-        <!--  Image  -->
-        <string name="gambar_homepage">Gambar Homepage</string>
-        <string name="pengaturan_homepage">Gambar Pengaturan</string>
-        <string name="logo_homepage">Gambar Logo</string>
-        <string name="foto_homepage">Foto Profil</string>
-        <string name="simbollokasi_homepage">Simbol Lokasi</string>
-        <string name="gambarpickup_homepage">Gambar Pickup</string>
-        <string name="gambardelivery_homepage">Gambar Delivery</string>
+    <!--  Image  -->
+    <string name="gambar_homepage">Gambar Homepage</string>
+    <string name="pengaturan_homepage">Gambar Pengaturan</string>
+    <string name="logo_homepage">Gambar Logo</string>
+    <string name="foto_homepage">Foto Profil</string>
+    <string name="simbollokasi_homepage">Simbol Lokasi</string>
+    <string name="gambarpickup_homepage">Gambar Pickup</string>
+    <string name="gambardelivery_homepage">Gambar Delivery</string>
     <!--  End Homepage  -->
 
     <!--  Layout Login  -->
-        <!--    Text    -->
-        <string name="welcome_login">Selamat Datang!</string>
-        <string name="deskripsi1_login">Segera Nikmati Layanan Isi Ulang Air Mineral</string>
-        <string name="deskripsi2_login">Langsung dari Ponselmu di Galon Hub!</string>
-        <string name="inputform1_login">Nama Pengguna, Email dan Nomor HP</string>
-        <string name="inputform2_login">Kata Sandi</string>
-        <string name="forget_login">Lupa Kata Sandi?</string>
-        <string name="buttonmasuk_login">Masuk</string>
-        <string name="masukdengan_login">Masuk Dengan</string>
-        <string name="belumbuatakun_login">Belum buat akun?</string>
-        <string name="daftar_login">Daftar disini</string>
+    <!--    Text    -->
+    <string name="welcome_login">Selamat Datang!</string>
+    <string name="deskripsi1_login">Segera Nikmati Layanan Isi Ulang Air Mineral</string>
+    <string name="deskripsi2_login">Langsung dari Ponselmu di Galon Hub!</string>
+    <string name="inputform1_login">Nama Pengguna, Email dan Nomor HP</string>
+    <string name="inputform2_login">Kata Sandi</string>
+    <string name="forget_login">Lupa Kata Sandi?</string>
+    <string name="buttonmasuk_login">Masuk</string>
+    <string name="masukdengan_login">Masuk Dengan</string>
+    <string name="belumbuatakun_login">Belum buat akun?</string>
+    <string name="daftar_login">Daftar disini</string>
 
-        <!--  Image  -->
-        <string name="logofb_login">Logo Facebook</string>
-        <string name="logogoogle_login">Logo Google</string>
-        <string name="logoapple_login">Logo Apple</string>
-        <string name="hiasan2_login">Hiasan</string>
+    <!--  Image  -->
+    <string name="logofb_login">Logo Facebook</string>
+    <string name="logogoogle_login">Logo Google</string>
+    <string name="logoapple_login">Logo Apple</string>
+    <string name="hiasan2_login">Hiasan</string>
     <!-- End Login   -->
 
     <!--  Layout Register  -->
-        <!--  Text  -->
-        <string name="daftar_register">Buat Akun</string>
-        <string name="deskripsi1_register">Ayo, bergabung dengan kami! Dapatkan</string>
-        <string name="deskripsi2_register">Layanan Isi Ulang Air Mineral Langsung dari</string>
-        <string name="deskripsi3_register">Ponselmu di Galon Hub</string>
-        <string name="email_register">Email</string>
-        <string name="password_register">Kata Sandi Baru</string>
-        <string name="konfirpassword_register">Konfirmasi Kata Sandi</string>
-        <string name="simbolbintang_register">*</string>
-        <string name="deskripsi4_register">Dengan menekan tombol</string>
-        <string name="daftarakun_register">Daftar Akun</string>
-        <string name="deskripsi5_register">, anda setuju</string>
-        <string name="deskripsi6_register">dengan syarat dan ketentuan yang berlaku</string>
-        <string name="buttondaftar_register">Daftar Akun</string>
-        <string name="masukdengan_register">Masuk Dengan</string>
-        <string name="sudahpunyaakun_register">Sudah punya akun?</string>
-        <string name="masukdisini_register">Masuk disini</string>
+    <!--  Text  -->
+    <string name="daftar_register">Buat Akun</string>
+    <string name="deskripsi1_register">Ayo, bergabung dengan kami! Dapatkan</string>
+    <string name="deskripsi2_register">Layanan Isi Ulang Air Mineral Langsung dari</string>
+    <string name="deskripsi3_register">Ponselmu di Galon Hub</string>
+    <string name="email_register">Email</string>
+    <string name="password_register">Kata Sandi Baru</string>
+    <string name="konfirpassword_register">Konfirmasi Kata Sandi</string>
+    <string name="simbolbintang_register">*</string>
+    <string name="deskripsi4_register">Dengan menekan tombol</string>
+    <string name="daftarakun_register">Daftar Akun</string>
+    <string name="deskripsi5_register">, anda setuju</string>
+    <string name="deskripsi6_register">dengan syarat dan ketentuan yang berlaku</string>
+    <string name="buttondaftar_register">Daftar Akun</string>
+    <string name="masukdengan_register">Masuk Dengan</string>
+    <string name="sudahpunyaakun_register">Sudah punya akun?</string>
+    <string name="masukdisini_register">Masuk disini</string>
 
-        <!--  Image  -->
-        <string name="hiasankiri_register">Hiasan</string>
-        <string name="hiasankanan_register">Hiasan</string>
-        <string name="logofb_register">Logo Facebook</string>
-        <string name="logogoogle_register">Logo Google</string>
-        <string name="logoapple_register">Logo Apple</string>
+    <!--  Image  -->
+    <string name="hiasankiri_register">Hiasan</string>
+    <string name="hiasankanan_register">Hiasan</string>
+    <string name="logofb_register">Logo Facebook</string>
+    <string name="logogoogle_register">Logo Google</string>
+    <string name="logoapple_register">Logo Apple</string>
     <!--  End Register  -->
 
     <!--  Layout Detail Pesanan  -->
-        <!--  Text  -->
-        <string name="buttonpesanan_dp">Detail Pesanan</string>
-        <string name="deskripsi1_dp">Berapa banyak galon yang ingin kamu isi ulang?</string>
-        <string name="deskripsi2_dp">Jumlah Galon</string>
-        <string name="orderan1_dp">Isi Ulang Air Aqua</string>
-        <string name="keterangan1_dp">Persediaan Banyak</string>
-        <string name="harga1_dp">Rp 14.000</string>
-        <string name="orderan2_dp">Isi Ulang Air Biasa</string>
-        <string name="keterangan2_dp">Persediaan Sedikit</string>
-        <string name="harga2_dp">Rp 7.000</string>
-        <string name="orderan3_dp">Galon Aqua + isi</string>
-        <string name="harga3_dp">Rp 40.000</string>
-        <string name="buttonkonfirmasi_dp">Konfirmasi Pesanan</string>
-        <string name="jumlah1_dp">3</string>
-        <string name="jumlah2_dp">2</string>
-        <string name="jumlah3_dp">1</string>
-        <string name="jumlah4_dp">0</string>
-        <string name="minus_dp">-</string>
-        <string name="plus_dp">+</string>
+    <!--  Text  -->
+    <string name="buttonpesanan_dp">Detail Pesanan</string>
+    <string name="deskripsi1_dp">Berapa banyak galon yang ingin kamu isi ulang?</string>
+    <string name="deskripsi2_dp">Jumlah Galon</string>
+    <string name="orderan1_dp">Isi Ulang Air Aqua</string>
+    <string name="keterangan1_dp">Persediaan Banyak</string>
+    <string name="harga1_dp">Rp 14.000</string>
+    <string name="orderan2_dp">Isi Ulang Air Biasa</string>
+    <string name="keterangan2_dp">Persediaan Sedikit</string>
+    <string name="harga2_dp">Rp 7.000</string>
+    <string name="orderan3_dp">Galon Aqua + isi</string>
+    <string name="harga3_dp">Rp 40.000</string>
+    <string name="buttonkonfirmasi_dp">Konfirmasi Pesanan</string>
+    <string name="jumlah1_dp">3</string>
+    <string name="jumlah2_dp">2</string>
+    <string name="jumlah3_dp">1</string>
+    <string name="jumlah4_dp">0</string>
+    <string name="minus_dp">-</string>
+    <string name="plus_dp">+</string>
 
-        <!--  Image  -->
-        <string name="pengaturan_dp">Pengaturan</string>
-        <string name="logo_dp">Logo</string>
-        <string name="fotoprofil_dp">Foto Profil</string>
-        <string name="airaqua_dp">Air Aqua</string>
-        <string name="airbiasa_dp">Gambar Air Biasa</string>
-        <string name="galonaqua_dp">Gambar Galon Aqua + Isi</string>
+    <!--  Image  -->
+    <string name="pengaturan_dp">Pengaturan</string>
+    <string name="logo_dp">Logo</string>
+    <string name="fotoprofil_dp">Foto Profil</string>
+    <string name="airaqua_dp">Air Aqua</string>
+    <string name="airbiasa_dp">Gambar Air Biasa</string>
+    <string name="galonaqua_dp">Gambar Galon Aqua + Isi</string>
     <!--  End Detail Pesanan  -->
+    
+    <!--  Layout lupa_password  -->
+        <!--  Text  -->
+        <string name="lupapassword_lp">Lupa Kata Sandi?</string>
+        <string name="inputemail_lp">Masukkan Alamat Email</string>
+        <string name="deskripsi_lp">Kami akan mengirimkan pesan kepada Anda untuk menetapkan atau mereset kata sandi baru Anda.</string>
+        <string name="buttonkirim_lp">Kirim</string>
+    <!-- End lupa_password   -->
 </resources>
