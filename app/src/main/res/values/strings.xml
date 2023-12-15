@@ -50,4 +50,30 @@
         <string name="logoapple_login">Logo Apple</string>
         <string name="hiasan2_login">Hiasan</string>
     <!-- End Login   -->
+
+<!--  Layout Register  -->
+<!--  Text  -->
+    <string name="daftar_register">Buat Akun</string>
+    <string name="deskripsi1_register">Ayo, bergabung dengan kami! Dapatkan</string>
+    <string name="deskripsi2_register">Layanan Isi Ulang Air Mineral Langsung dari</string>
+    <string name="deskripsi3_register">Ponselmu di Galon Hub</string>
+    <string name="email_register">Email</string>
+    <string name="password_register">Kata Sandi Baru</string>
+    <string name="konfirpassword_register">Konfirmasi Kata Sandi</string>
+    <string name="simbolbintang_register">*</string>
+    <string name="deskripsi4_register">Dengan menekan tombol</string>
+    <string name="daftarakun_register">Daftar Akun</string>
+    <string name="deskripsi5_register">, anda setuju</string>
+    <string name="deskripsi6_register">dengan syarat dan ketentuan yang berlaku</string>
+    <string name="buttondaftar_register">Daftar Akun</string>
+    <string name="masukdengan_register">Masuk Dengan</string>
+    <string name="sudahpunyaakun_register">Sudah punya akun?</string>
+    <string name="masukdisini_register">Masuk disini</string>
+
+<!--  Image  -->
+    <string name="hiasankiri_register">Hiasan</string>
+    <string name="hiasankanan_register">Hiasan</string>
+    <string name="logofb_register">Logo Facebook</string>
+    <string name="logogoogle_register">Logo Google</string>
+    <string name="logoapple_register">Logo Apple</string>
 </resources>
