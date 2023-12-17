@@ -183,4 +183,61 @@
     <string name="hargaadmin_checkout">Rp 1.000,00</string>
     <string name="hargatotal_checkout">Rp 38.000,00</string>
     <!--  End checkout  -->
+    
+    <!-- Layout Wawasan -->
+    <string name="hidrasi">HIDRASI</string>
+    <string name="insight">INSIGHT</string>
+    <string name="kesehatan">KESEHATAN</string>
+    <string name="kesehatantxt">Apa saja manfaat minum mineral setiap hari?</string>
+    <string name="kesehatantxt2">Apakah air mineral boleh diminum setiap hari?</string>
+    <string name="kesehatantxt3">Apakah air mineral itu bagus?</string>
+    <string name="kesehatantxt4">Beda manfaat air mineral dengan air putih biasa</string>
+    <string name="more">Lihat Selengkapnya</string>
+    <!-- End Layout Wawasan -->
+
+    <!-- Layout Hidrasi -->
+    <string name="judul">Biasakan dirimu untuk minum air</string>
+    <string name="txtheader">Menciptakan kebiasaan agar minum air teratur setiap harinya tidak bisa
+        terjadi begitu saja. Kamu perlu memaksa diri kamu untuk minum air di sela-sela aktivitasmu.
+        Untuk langkah awal, kamu bisa pasang alarm pengingat minum di ponselmu di jam-jam tertentu.
+    </string>
+    <!-- End Layout Hidrasi -->
+
+    <!-- Layout Insight -->
+    <string name="judul">Kualitas air yang konsisten</string>
+    <string name="txt">Kami tersedia di seluruh Indonesia dan menjadi Top 3. Itu membuktikan bahwa
+        kualitas air kami memiliki standar yang konsisten.
+    </string>
+    <string name="judul2">Setiap tetes di setiap botol air sudah melalui 12 proses kualitas yang
+        ketat
+    </string>
+    <string name="txt2">Itulah cara kami memastikan GalonHub memenuhi standar kualitas yang tinggi
+        dan menghasilkan rasa air yang murni.
+    </string>
+    <string name="more">Lihat Semua Artikel</string>
+    <string name="artikel">11 PENYEBAB SERING MENGUAP SELAIN KARENA MENGANTUK!</string>
+    <!-- End Layout Insight -->
+
+    <!-- Layout Fitur Isi Ulang Galon -->
+    <string name="layanan">Layanan yang Tersedia di Kawasan Anda</string>
+    <string name="loc">Tokyo, Jepang</string>
+    <string name="loc2">Lokasi</string>
+    <string name="km3">0,3KM</string>
+    <string name="loc3">Galon RO, 26179 Akihabara, Tokyo, Jepang</string>
+    <string name="price">Harga : Rp 7.000 - Rp 40.000/galon</string>
+    <string name="choice">Pilih</string>
+    <!-- End Fitur Isi Ulang Galon -->
+
+    <!-- Layout Fitur Delivery dan Delivery Selesai -->
+    <string name="pemesananpros">Proses Pemesanan</string>
+    <string name="kurir">Kurir Menuju Alamatmu</string>
+    <string name="sampai">( Sampai lokasi dalam waktu 6 menit )</string>
+    <string name="tujuan">Alamat : Akihabara 1291 Block 1, Tokyo, Jepang, +17219HT 16218</string>
+    <string name="done">Selamat, Kobo!</string>
+    <string name="pesanansampai">Pesanan kamu sudah sampai tujuan dalam waktu 6 menit saja.
+        Dan berhasil mendapatkan</string>
+    <string name="poin">10 poin.</string>
+    <string name="kembalihome">Kembali ke Menu Awal</string>
+    <!-- End Fitur Delivery dan Delivery Selesai -->
+    
 </resources>
