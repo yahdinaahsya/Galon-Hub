@@ -203,17 +203,45 @@
     <!-- End Layout Hidrasi -->
 
     <!-- Layout Insight -->
-    <string name="judul">Kualitas air yang konsisten</string>
-    <string name="txt">Kami tersedia di seluruh Indonesia dan menjadi Top 3. Itu membuktikan bahwa
+    <!-- Text -->
+    <string name="judulInsight">Kualitas air yang konsisten</string>
+    <string name="txtInsight">Kami tersedia di seluruh Indonesia dan menjadi Top 3. Itu membuktikan bahwa
         kualitas air kami memiliki standar yang konsisten.
     </string>
-    <string name="judul2">Setiap tetes di setiap botol air sudah melalui 12 proses kualitas yang
+    <string name="subjudulInsight">Setiap tetes di setiap botol air sudah melalui 12 proses kualitas yang
         ketat
     </string>
-    <string name="txt2">Itulah cara kami memastikan GalonHub memenuhi standar kualitas yang tinggi
+    <string name="txtInsight2">Itulah cara kami memastikan GalonHub memenuhi standar kualitas yang tinggi
         dan menghasilkan rasa air yang murni.
     </string>
-    <string name="artikel">11 PENYEBAB SERING MENGUAP SELAIN KARENA MENGANTUK!</string>
+    <string name="moreInsight">Lihat Semua Artikel</string>
+    <string name="subjudulInsight2">Lengkapi Kebutuhan Pencernaan Kamu Dengan Air Mineral\n\n</string>
+
+    <!-- Styles Insight -->
+    <style name="judulInsight">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#1A4E7D</item>
+    </style>
+
+    <style name="txtInsight">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="subjudulInsight">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#1A4E7D</item>
+    </style>
+
+    <style name="textInsight2">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="subjudulInsight2">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#1A4E7D</item>
+    </style>
     <!-- End Layout Insight -->
 
     <!-- Layout Fitur Isi Ulang Galon -->
