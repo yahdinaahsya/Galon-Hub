@@ -26,6 +26,13 @@ class HomeActivity : AppCompatActivity() {
                 startActivity(halamanBaru)
             }
         }
+
+        val tombolPesan = findViewById<TextView>(R.id.textView24)
+        tombolPesan.setOnClickListener {
+            val halamanBaru = Intent( this@HomeActivity, MitraTerdekatActivity::class.java)
+            startActivity(halamanBaru)
+        }
+
         val tombolWawasan = findViewById<TextView>(R.id.textView25)
         tombolWawasan.setOnClickListener{
             val halamanBaru = Intent( this@HomeActivity, WawasanActivity::class.java)
