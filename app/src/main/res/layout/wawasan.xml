@@ -32,19 +32,19 @@
         app:srcCompat="@drawable/logogalonhub"
         />
     <ImageView
-        android:contentDescription="@string/foto_homepage"
         android:id="@+id/imageView9"
-        android:layout_width="45dp"
+        android:layout_width="38dp"
         android:layout_height="46dp"
         android:layout_marginStart="110dp"
         android:layout_marginBottom="27dp"
+        android:contentDescription="@string/foto_homepage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/fotoprofil"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/user" 
         />
     <EditText
         android:id="@+id/editTextText6"
