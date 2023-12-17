@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import android.widget.TextView
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +25,11 @@ class HomeActivity : AppCompatActivity() {
                 val halamanBaru = Intent(this@HomeActivity, LoginActivity::class.java)
                 startActivity(halamanBaru)
             }
+        }
+        val tombolWawasan = findViewById<TextView>(R.id.textView25)
+        tombolWawasan.setOnClickListener{
+            val halamanBaru = Intent( this@HomeActivity, WawasanActivity::class.java)
+            startActivity(halamanBaru)
         }
     }
 }
