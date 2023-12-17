@@ -196,7 +196,6 @@
     <!-- End Layout Wawasan -->
 
     <!-- Layout Hidrasi -->
-    <string name="judul">Biasakan dirimu untuk minum air</string>
     <string name="txtheader">Menciptakan kebiasaan agar minum air teratur setiap harinya tidak bisa
         terjadi begitu saja. Kamu perlu memaksa diri kamu untuk minum air di sela-sela aktivitasmu.
         Untuk langkah awal, kamu bisa pasang alarm pengingat minum di ponselmu di jam-jam tertentu.
@@ -214,7 +213,6 @@
     <string name="txt2">Itulah cara kami memastikan GalonHub memenuhi standar kualitas yang tinggi
         dan menghasilkan rasa air yang murni.
     </string>
-    <string name="more">Lihat Semua Artikel</string>
     <string name="artikel">11 PENYEBAB SERING MENGUAP SELAIN KARENA MENGANTUK!</string>
     <!-- End Layout Insight -->
 
@@ -236,7 +234,6 @@
     <string name="done">Selamat, Kobo!</string>
     <string name="pesanansampai">Pesanan kamu sudah sampai tujuan dalam waktu 6 menit saja.
         Dan berhasil mendapatkan</string>
-    <string name="poin">10 poin.</string>
     <string name="kembalihome">Kembali ke Menu Awal</string>
     <!-- End Fitur Delivery dan Delivery Selesai -->
 
