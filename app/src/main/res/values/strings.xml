@@ -24,7 +24,7 @@
     <string name="deskripsi3_homepage">sentuhan dilayar ponsel Anda.</string>
     <string name="layanan_homepage">Layanan yang Tersedia di Kawasan Anda</string>
     <string name="namadaerah_homepage">Tokyo, Jepang</string>
-    <string name="pickup_homepage">PICK UP</string>
+    <string name="pickup_homepage">PESAN</string>
     <string name="wawasan_homepage">WAWASAN</string>
     <string name="aktivitaspemesanan_homepage">Aktifitas Pemesanan</string>
     <string name="namamitra_homepage">Yaya Water - </string>
@@ -183,7 +183,7 @@
     <string name="hargaadmin_checkout">Rp 1.000,00</string>
     <string name="hargatotal_checkout">Rp 38.000,00</string>
     <!--  End checkout  -->
-    
+
     <!-- Layout Wawasan -->
     <string name="hidrasi">HIDRASI</string>
     <string name="insight">INSIGHT</string>
@@ -196,7 +196,6 @@
     <!-- End Layout Wawasan -->
 
     <!-- Layout Hidrasi -->
-    <string name="judul">Biasakan dirimu untuk minum air</string>
     <string name="txtheader">Menciptakan kebiasaan agar minum air teratur setiap harinya tidak bisa
         terjadi begitu saja. Kamu perlu memaksa diri kamu untuk minum air di sela-sela aktivitasmu.
         Untuk langkah awal, kamu bisa pasang alarm pengingat minum di ponselmu di jam-jam tertentu.
@@ -214,7 +213,6 @@
     <string name="txt2">Itulah cara kami memastikan GalonHub memenuhi standar kualitas yang tinggi
         dan menghasilkan rasa air yang murni.
     </string>
-    <string name="more">Lihat Semua Artikel</string>
     <string name="artikel">11 PENYEBAB SERING MENGUAP SELAIN KARENA MENGANTUK!</string>
     <!-- End Layout Insight -->
 
@@ -236,8 +234,7 @@
     <string name="done">Selamat, Kobo!</string>
     <string name="pesanansampai">Pesanan kamu sudah sampai tujuan dalam waktu 6 menit saja.
         Dan berhasil mendapatkan</string>
-    <string name="poin">10 poin.</string>
     <string name="kembalihome">Kembali ke Menu Awal</string>
     <!-- End Fitur Delivery dan Delivery Selesai -->
-    
+
 </resources>

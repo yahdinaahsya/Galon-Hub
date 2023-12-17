@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "371791363311",
+    "project_id": "galon-hub",
+    "storage_bucket": "galon-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371791363311:android:b89975e74d899497d0ef1a",
+        "android_client_info": {
+          "package_name": "com.example.galonhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDta4pwna3t6NxOJVFDIwv4Tjlel-iCdqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

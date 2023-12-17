@@ -11,21 +11,21 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login)
 
-        val tombol_login = findViewById<Button>(R.id.button2)
-        tombol_login.setOnClickListener{
+        val tombolLogin = findViewById<Button>(R.id.button2)
+        tombolLogin.setOnClickListener{
             val halamanBaru = Intent(this@LoginActivity, HomeActivity::class.java)
             halamanBaru.putExtra("login", true)
             startActivity(halamanBaru)
         }
 
-        val tombol_register = findViewById<TextView>(R.id.textView18)
-        tombol_register.setOnClickListener{
+        val tombolRegister = findViewById<TextView>(R.id.textView18)
+        tombolRegister.setOnClickListener{
             val halamanBaru = Intent(this@LoginActivity, RegisterActivity::class.java)
             startActivity(halamanBaru)
         }
 
-        val tombol_lupaPassword = findViewById<TextView>(R.id.textView15)
-        tombol_lupaPassword.setOnClickListener {
+        val tombolLupaPassword = findViewById<TextView>(R.id.textView15)
+        tombolLupaPassword.setOnClickListener {
             val halamanBaru = Intent( this@LoginActivity, LupaPasswordActivity::class.java)
             startActivity(halamanBaru)
         }
