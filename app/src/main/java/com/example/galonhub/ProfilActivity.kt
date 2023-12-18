@@ -26,7 +26,7 @@ class ProfilActivity : AppCompatActivity() {
 
         auth = Firebase.auth
 
-        val tombol = findViewById<Button>(R.id.button)
+        val tombol = findViewById<Button>(R.id.btnkeluarprofil)
         tombol.setOnClickListener{
             Firebase.auth.signOut()
             val halamanBaru = Intent(this@ProfilActivity, HomeActivity::class.java)
