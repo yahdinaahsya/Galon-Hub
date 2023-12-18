@@ -33,28 +33,27 @@
         app:srcCompat="@drawable/logogalonhub"
         />
     <ImageView
-        android:contentDescription="@string/foto_homepage"
         android:id="@+id/imageView9"
-        android:layout_width="45dp"
+        android:layout_width="38dp"
         android:layout_height="46dp"
         android:layout_marginStart="110dp"
         android:layout_marginBottom="27dp"
+        android:contentDescription="@string/foto_homepage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/user"
-        />
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/user" />
 
     <!-- TEXT -->
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
+        android:layout_width="379dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/outfit_bold"
         android:text="@string/judulInsight"
         android:textAppearance="@style/judulInsight"
@@ -62,58 +61,58 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.053" />
+        app:layout_constraintVertical_bias="0.093" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="376dp"
+        android:layout_width="375dp"
         android:layout_height="103dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="10dp"
         android:fontFamily="@font/outfit_light"
         android:text="@string/txtInsight"
         android:textAppearance="@style/txtInsight"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1"
-        app:layout_constraintVertical_bias="0.021" />
+        app:layout_constraintVertical_bias="0.026" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="358dp"
         android:layout_height="51dp"
-        android:layout_marginEnd="25dp"
+        android:layout_marginEnd="28dp"
         android:fontFamily="@font/outfit_bold"
         android:text="@string/subjudulInsight"
         android:textAppearance="@style/subjudulInsight"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintVertical_bias="0.049" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="369dp"
         android:layout_height="82dp"
-        android:layout_marginEnd="12dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/outfit_light"
         android:text="@string/txtInsight2"
         android:textAppearance="@style/textInsight2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.049" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="356dp"
-        android:layout_height="96dp"
-        android:layout_marginEnd="24dp"
+        android:layout_width="373dp"
+        android:layout_height="122dp"
+        android:layout_marginEnd="10dp"
         android:fontFamily="@font/outfit_bold"
         android:text="@string/subjudulInsight2"
         android:textAppearance="@style/subjudulInsight2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.092" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
