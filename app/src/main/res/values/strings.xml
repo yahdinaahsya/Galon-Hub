@@ -267,14 +267,38 @@
     <string name="choice">Pilih</string>
     <!-- End Fitur Isi Ulang Galon -->
 
-    <!-- Layout Fitur Delivery dan Delivery Selesai -->
-    <string name="pemesananpros">Proses Pemesanan</string>
-    <string name="kurir">Kurir Menuju Alamatmu</string>
-    <string name="sampai">( Sampai lokasi dalam waktu 6 menit )</string>
-    <string name="tujuan">Alamat : Akihabara 1291 Block 1, Tokyo, Jepang, +17219HT 16218</string>
-    <string name="done">Selamat, Kobo!</string>
-    <string name="pesanansampai">Pesanan kamu sudah sampai tujuan dalam waktu 6 menit saja.
-        Dan berhasil mendapatkan</string>
-    <string name="kembalihome">Kembali ke Menu Awal</string>
+    <!-- LAYOUT DELIVERY -->
+    <!-- Text Delivery -->
+    <string name="prosesDelivery">Proses Pemesanan</string>
+    <string name="kurirDelivery">Kurir Menuju Alamatmu</string>
+    <string name="estimasiDelivery">( Sampai lokasi dalam waktu 6 menit )</string>
+    <string name="alamatDelivery">Akihabara 1291 Block 1, Tokyo, Jepang, +17219HT 16218</string>
 
+    <!-- Style Delivery -->
+    <style name="prosesDelivery">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#E0F4FF</item>
+        <item name="android:fontFamily">@font/outfit_semibold</item>
+    </style>
+
+    <style name="kurirDelivery">
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textColor">#373D3D</item>
+        <item name="android:fontFamily">@font/outfit_semibold</item>
+    </style>
+
+    <style name="estimasiDelivery">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textColor">#39A7FF</item>
+        <item name="android:fontFamily">@font/outfit_regular</item>
+    </style>
+
+    <style name="alamatDelivery">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#031222</item>
+        <item name="android:fontFamily">@font/outfit_light</item>
+    </style>
+    <!-- END LAYOUT DELIVERY --> 
 </resources>
