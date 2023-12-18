@@ -20,18 +20,18 @@
         app:layout_constraintVertical_bias="0.023"
         app:srcCompat="@drawable/buttonmenu"
         />
+
     <ImageView
-        android:contentDescription="@string/logogalonhub"
         android:id="@+id/imageView2"
         android:layout_width="69dp"
         android:layout_height="69dp"
+        android:contentDescription="@string/logogalonhub"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.007"
-        app:srcCompat="@drawable/logogalonhub"
-        />
+        app:srcCompat="@drawable/logogalonhub" />
     <ImageView
         android:contentDescription="@string/foto_homepage"
         android:id="@+id/imageView9"
@@ -50,70 +50,61 @@
 
     <!-- TEXT -->
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        android:fontFamily="@font/outfit_bold"
-        android:text="@string/judulInsight"
-        android:textAppearance="@style/judulInsight"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.053" />
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="641dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="376dp"
-        android:layout_height="103dp"
-        android:layout_marginEnd="8dp"
-        android:fontFamily="@font/outfit_light"
-        android:text="@string/txtInsight"
-        android:textAppearance="@style/txtInsight"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView1"
-        app:layout_constraintVertical_bias="0.021" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/outfit_bold"
+            android:text="@string/judulInsight"
+            android:textAppearance="@style/judulInsight"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="358dp"
-        android:layout_height="51dp"
-        android:layout_marginEnd="25dp"
-        android:fontFamily="@font/outfit_bold"
-        android:text="@string/subjudulInsight"
-        android:textAppearance="@style/subjudulInsight"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.028" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/outfit_light"
+            android:text="@string/txtInsight"
+            android:textAppearance="@style/txtInsight" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="369dp"
-        android:layout_height="82dp"
-        android:layout_marginEnd="12dp"
-        android:fontFamily="@font/outfit_light"
-        android:text="@string/txtInsight2"
-        android:textAppearance="@style/textInsight2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.0" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:fontFamily="@font/outfit_bold"
+            android:text="@string/subjudulInsight"
+            android:textAppearance="@style/subjudulInsight" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="356dp"
-        android:layout_height="96dp"
-        android:layout_marginEnd="24dp"
-        android:fontFamily="@font/outfit_bold"
-        android:text="@string/subjudulInsight2"
-        android:textAppearance="@style/subjudulInsight2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.0" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/outfit_light"
+            android:text="@string/txtInsight2"
+            android:textAppearance="@style/textInsight2" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/outfit_bold"
+            android:text="@string/subjudulInsight2"
+            android:textAppearance="@style/subjudulInsight2" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

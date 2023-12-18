@@ -6,6 +6,6 @@ import android.os.Bundle
 class WawasanActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.wawasan)
+        setContentView(R.layout.insight)
     }
 }
