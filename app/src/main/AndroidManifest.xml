@@ -13,6 +13,9 @@
         android:theme="@style/Theme.GalonHub"
         tools:targetApi="31">
         <activity
+            android:name=".DetailPesananActivity"
+            android:exported="false" />
+        <activity
             android:name=".WawasanActivity"
             android:exported="false" />
         <activity

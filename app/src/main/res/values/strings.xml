@@ -212,7 +212,7 @@
     <string name="more">Lihat Selengkapnya</string>
     <!-- End Layout Wawasan -->
 
-        <!-- Layout Hidrasi -->
+    <!-- Layout Hidrasi -->
     <!-- Text -->
     <string name="judulHidrasi">Biasakan dirimu untuk minum air</string>
     <string name="txtHidrasi">Menciptakan kebiasaan agar minum air teratur setiap harinya tidak bisa
@@ -317,5 +317,5 @@
         <item name="android:textColor">#031222</item>
         <item name="android:fontFamily">@font/outfit_light</item>
     </style>
-    <!-- END LAYOUT DELIVERY --> 
+    <!-- END LAYOUT DELIVERY -->
 </resources>
