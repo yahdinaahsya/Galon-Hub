@@ -267,7 +267,7 @@
     <string name="choice">Pilih</string>
     <!-- End Fitur Isi Ulang Galon -->
 
-        <!-- LAYOUT DELIVERY -->
+    <!-- LAYOUT DELIVERY -->
     <!-- Text Delivery -->
     <string name="prosesDelivery">Proses Pemesanan</string>
     <string name="kurirDelivery">Kurir Menuju Alamatmu</string>
@@ -300,6 +300,5 @@
         <item name="android:textColor">#031222</item>
         <item name="android:fontFamily">@font/outfit_light</item>
     </style>
-    <!-- END LAYOUT DELIVERY -->
-
+    <!-- END LAYOUT DELIVERY --> 
 </resources>
