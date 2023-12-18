@@ -31,6 +31,16 @@
     <string name="hubungikami">Hubungi Kami</string>
     <!--  End Profil  -->
 
+    <!--  Layout pesananselesai  -->
+    <string name="btnprosespemesanan">Proses Pemesanan</string>
+    <string name="mappesananselesai">Gambar Map</string>
+    <string name="selamatuserps">Selamat, Kobo!</string>
+    <string name="deskripsi1ps">Pesanan kamu sudah sampai tujuan dalam waktu 6 menit saja. Dan berhasil mendapatkan 10 point</string>
+    <string name="banyakpoinps">10 poin</string>
+    <string name="btnkembalikemenuawalps">Kembali ke Menu Awal</string>
+    <string name="logopesananselesai">Pesanan Selesai</string>
+    <!--  End pesananselesai  -->
+
     <!-- Layout homepage   -->
     <!--    Text    -->
     <string name="cari_homepage">Cari</string>
