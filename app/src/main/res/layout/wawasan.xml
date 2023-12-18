@@ -6,298 +6,85 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
+    <!-- NAVBAR -->
     <ImageView
+        android:contentDescription="@string/pengaturan_homepage"
         android:id="@+id/imageView"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:contentDescription="@string/pengaturan_homepage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/buttonmenu" />
-
+        app:srcCompat="@drawable/buttonmenu"
+        />
     <ImageView
+        android:contentDescription="@string/logogalonhub"
         android:id="@+id/imageView2"
         android:layout_width="69dp"
         android:layout_height="69dp"
-        android:contentDescription="@string/logogalonhub"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.007"
-        app:srcCompat="@drawable/logogalonhub" />
-
+        app:srcCompat="@drawable/logogalonhub"
+        />
     <ImageView
+        android:contentDescription="@string/foto_homepage"
         android:id="@+id/imageView9"
         android:layout_width="45dp"
         android:layout_height="46dp"
         android:layout_marginStart="110dp"
         android:layout_marginBottom="27dp"
-        android:contentDescription="@string/foto_homepage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.894"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/fotoprofil" />
+        app:srcCompat="@drawable/fotoprofil"
+        />
 
-    <EditText
-        android:id="@+id/editTextText6"
-        android:layout_width="350dp"
-        android:layout_height="51dp"
-        android:autofillHints="name"
-        android:background="@drawable/inputlogin1"
-        android:ems="10"
-        android:hint="@string/cari_homepage"
-        android:inputType="text"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp"
-        android:textColorHint="#666161"
+    <!-- TEXT -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="342dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="44dp"
+        android:fontFamily="@font/outfit_bold"
+        android:text="@string/judulHidrasi"
+        android:textAppearance="@style/judulHidrasi"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.033" />
+        app:layout_constraintVertical_bias="0.064" />
 
-    <!-- FITUR HIDRASI -->
-    <!-- LAYOUT FITUR HIDRASI -->
-
-    <View
-        android:id="@+id/rectangle"
-        android:layout_width="158dp"
-        android:layout_height="158dp"
-        android:background="@drawable/rectangle3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/rectangle2"
-        app:layout_constraintHorizontal_bias="0.477"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText6"
-        app:layout_constraintVertical_bias="0.074" />
-
-    <View
-        android:id="@+id/iconhidrasi"
-        android:layout_width="113dp"
-        android:layout_height="104dp"
-        android:background="@drawable/iconhidrasi"
-        app:layout_constraintBottom_toBottomOf="@+id/texthidrasi"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle"
-        app:layout_constraintStart_toStartOf="@+id/rectangle"
-        app:layout_constraintTop_toTopOf="@+id/rectangle" />
-    <!-- TEXT FITUR HIDRASI -->
     <TextView
-        android:id="@+id/texthidrasi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-5dp"
-        android:fontFamily="@font/outfit_semibold"
-        android:text="@string/hidrasi"
-        android:textColor="@color/black"
-        android:textSize="11sp"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle"
-        app:layout_constraintEnd_toEndOf="@+id/iconhidrasi"
-        app:layout_constraintHorizontal_bias="0.472"
-        app:layout_constraintStart_toStartOf="@+id/iconhidrasi"
-        app:layout_constraintTop_toTopOf="@+id/rectangle"
-        app:layout_constraintVertical_bias="0.941" />
-
-    <!-- FITUR INSIGHT -->
-    <!-- LAYOUT FITUR INSIGHT -->
-
-    <View
-        android:id="@+id/rectangle2"
-        android:layout_width="158dp"
-        android:layout_height="158dp"
-        android:layout_marginEnd="28dp"
-        android:background="@drawable/rectangle3"
+        android:id="@+id/textView2"
+        android:layout_width="368dp"
+        android:layout_height="194dp"
+        android:layout_marginEnd="18dp"
+        android:fontFamily="@font/outfit_light"
+        android:text="@string/txtHidrasi"
+        android:textAppearance="@style/txtHidrasi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.184" />
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        app:layout_constraintVertical_bias="0.019" />
 
-    <View
-        android:id="@+id/iconinsight"
-        android:layout_width="113dp"
-        android:layout_height="104dp"
-        android:background="@drawable/iconinsight"
-        app:layout_constraintBottom_toBottomOf="@+id/textinsight"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle2"
-        app:layout_constraintStart_toStartOf="@+id/rectangle2"
-        app:layout_constraintTop_toTopOf="@+id/rectangle2" />
-    <!-- TEXT FITUR INSIGHT -->
-    <TextView
-        android:id="@+id/textinsight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="-10dp"
-        android:layout_marginTop="-5dp"
-        android:fontFamily="@font/outfit_semibold"
-        android:text="@string/insight"
-        android:textColor="@color/black"
-        android:textSize="11sp"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle2"
-        app:layout_constraintEnd_toEndOf="@+id/iconinsight"
-        app:layout_constraintHorizontal_bias="0.546"
-        app:layout_constraintStart_toStartOf="@+id/iconinsight"
-        app:layout_constraintTop_toTopOf="@+id/rectangle2"
-        app:layout_constraintVertical_bias="0.941" />
-
-    <!-- FITUR KESEHATAN -->
-    <!-- LAYOUT KESEHATAN -->
-    <TextView
-        android:id="@+id/kesehatan"
-        android:layout_width="149dp"
-        android:layout_height="20dp"
-        android:fontFamily="@font/outfit_semibold"
-        android:gravity="top"
-        android:text="@string/kesehatan"
-        android:textSize="19sp"
+    <!-- IMAGE -->
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="399dp"
+        android:layout_height="235dp"
+        android:layout_marginEnd="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle"
-        app:layout_constraintVertical_bias="0.042" />
-
-    <View
-        android:id="@+id/rectangle3"
-        android:layout_width="352dp"
-        android:layout_height="203dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="12dp"
-        android:background="@drawable/rectangle2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kesehatan"
-        app:layout_constraintVertical_bias="0.113" />
-
-    <View
-        android:id="@+id/rectangle4"
-        android:layout_width="325dp"
-        android:layout_height="22dp"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/rectangle"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle3"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle3"
-        app:layout_constraintHorizontal_bias="0.518"
-        app:layout_constraintStart_toStartOf="@+id/rectangle3"
-        app:layout_constraintTop_toTopOf="@+id/rectangle3"
-        app:layout_constraintVertical_bias="0.104" />
-
-    <View
-        android:id="@+id/rectangle5"
-        android:layout_width="325dp"
-        android:layout_height="22dp"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/rectangle"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle3"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle3"
-        app:layout_constraintHorizontal_bias="0.518"
-        app:layout_constraintStart_toStartOf="@+id/rectangle3"
-        app:layout_constraintTop_toTopOf="@+id/rectangle3"
-        app:layout_constraintVertical_bias="0.281" />
-
-    <View
-        android:id="@+id/rectangle6"
-        android:layout_width="325dp"
-        android:layout_height="22dp"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/rectangle"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle3"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle3"
-        app:layout_constraintStart_toStartOf="@+id/rectangle3"
-        app:layout_constraintTop_toTopOf="@+id/rectangle3" />
-
-    <!-- END LAYOUT KESEHATAN -->
-    <!-- TEXT FITUR KESEHATAN -->
-
-    <View
-        android:id="@+id/rectangle7"
-        android:layout_width="325dp"
-        android:layout_height="22dp"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/rectangle"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle3"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle3"
-        app:layout_constraintHorizontal_bias="0.407"
-        app:layout_constraintStart_toStartOf="@+id/rectangle3"
-        app:layout_constraintTop_toTopOf="@+id/rectangle3"
-        app:layout_constraintVertical_bias="0.69" />
-
-    <TextView
-        android:id="@+id/txt"
-        android:layout_width="313dp"
-        android:layout_height="19dp"
-        android:fontFamily="@font/outfit_regular"
-        android:text="@string/kesehatantxt"
-        android:textColor="@color/black"
-        android:textSize="13sp"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle3"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle3"
-        app:layout_constraintHorizontal_bias="0.538"
-        app:layout_constraintStart_toStartOf="@+id/rectangle3"
-        app:layout_constraintTop_toTopOf="@+id/rectangle4"
-        app:layout_constraintVertical_bias="0.213" />
-
-    <TextView
-        android:id="@+id/txt2"
-        android:layout_width="313dp"
-        android:layout_height="19dp"
-        android:fontFamily="@font/outfit_regular"
-        android:text="@string/kesehatantxt2"
-        android:textColor="@color/black"
-        android:textSize="13sp"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle3"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle3"
-        app:layout_constraintHorizontal_bias="0.435"
-        app:layout_constraintStart_toStartOf="@+id/rectangle3"
-        app:layout_constraintTop_toTopOf="@+id/rectangle3"
-        app:layout_constraintVertical_bias="0.108" />
-
-    <TextView
-        android:id="@+id/txt3"
-        android:layout_width="313dp"
-        android:layout_height="19dp"
-        android:fontFamily="@font/outfit_regular"
-        android:text="@string/kesehatantxt3"
-        android:textColor="@color/black"
-        android:textSize="13sp"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle3"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle3"
-        app:layout_constraintHorizontal_bias="0.538"
-        app:layout_constraintStart_toStartOf="@+id/rectangle3"
-        app:layout_constraintTop_toTopOf="@+id/rectangle5"
-        app:layout_constraintVertical_bias="0.302" />
-
-    <TextView
-        android:id="@+id/txt4"
-        android:layout_width="313dp"
-        android:layout_height="19dp"
-        android:fontFamily="@font/outfit_regular"
-        android:text="@string/kesehatantxt4"
-        android:textColor="@color/black"
-        android:textSize="13sp"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle3"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle3"
-        app:layout_constraintHorizontal_bias="0.538"
-        app:layout_constraintStart_toStartOf="@+id/rectangle3"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle6"
-        app:layout_constraintVertical_bias="0.183" />
-
-    <androidx.constraintlayout.widget.Group
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <androidx.constraintlayout.widget.Group
-        android:id="@+id/group"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:constraint_referenced_ids="rectangle3" />
-    <!-- END TEXT KESEHATAN -->
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.366"
+        app:srcCompat="@drawable/ftohidrasi" />
 </androidx.constraintlayout.widget.ConstraintLayout>
