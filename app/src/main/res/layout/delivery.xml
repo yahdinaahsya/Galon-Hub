@@ -47,7 +47,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.024"
-        app:srcCompat="@drawable/user" />
+        app:srcCompat="@drawable/fotoprofil" />
     <!-- END NAVBAR -->
 
     <View
@@ -90,7 +90,6 @@
         android:layout_height="559dp"
         android:layout_marginTop="172dp"
         android:background="@drawable/map3"
-        app:layout_constraintBottom_toBottomOf="view1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
