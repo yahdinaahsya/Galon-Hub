@@ -13,6 +13,23 @@
     <string name="ceklisbiru">Ceklis Biru</string>
     <string name="ceklisabuabu">Ceklis Abu Abu</string>
     <string name="aturtanggal">Kalender</string>
+    <string name="namauser">Kobo Kanaeru</string>
+    <string name="keluar">Keluar</string>
+
+    <!--  Layout Profil  -->
+    <string name="statusmember">Member Gold</string>
+    <string name="saldo_profil">Saldo</string>
+    <string name="point_profil">Point Saya</string>
+    <string name="jumlahsaldoprofil">Rp 80.000,00</string>
+    <string name="jumlahpointprofil">1.000</string>
+    <string name="biodatauser">Biodata Saya</string>
+    <string name="ubahpassword">Ubah Kata Sandi</string>
+    <string name="topup">Top Up</string>
+    <string name="vouchersaya">Voucher Saya</string>
+    <string name="historypemesanan">History Pemesanan</string>
+    <string name="tentangkami">Tentang Kami</string>
+    <string name="hubungikami">Hubungi Kami</string>
+    <!--  End Profil  -->
 
     <!-- Layout homepage   -->
     <!--    Text    -->
