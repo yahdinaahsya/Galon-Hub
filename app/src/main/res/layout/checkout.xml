@@ -53,21 +53,21 @@
 
                 <TextView
                     android:id="@+id/textView25"
-                    android:layout_width="32dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Air Aqua" />
 
                 <TextView
                     android:id="@+id/textView26"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Rp.14.000" />
 
                 <TextView
                     android:id="@+id/jumlahAqua"
-                    android:layout_width="32sp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="end"
@@ -75,7 +75,7 @@
 
                 <TextView
                     android:id="@+id/total_aqua"
-                    android:layout_width="32sp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="end"
@@ -89,21 +89,21 @@
 
                 <TextView
                     android:id="@+id/textView29"
-                    android:layout_width="32dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Air Biasa" />
 
                 <TextView
                     android:id="@+id/textView30"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Rp.7.000" />
 
                 <TextView
                     android:id="@+id/jumlahBiasa"
-                    android:layout_width="32sp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="end"
@@ -111,7 +111,7 @@
 
                 <TextView
                     android:id="@+id/total_biasa"
-                    android:layout_width="32sp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="end"
@@ -125,21 +125,21 @@
 
                 <TextView
                     android:id="@+id/textView33"
-                    android:layout_width="32dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Galon" />
 
                 <TextView
                     android:id="@+id/textView34"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Rp.40.000" />
 
                 <TextView
                     android:id="@+id/jumlahGalon"
-                    android:layout_width="32sp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="end"
@@ -147,7 +147,7 @@
 
                 <TextView
                     android:id="@+id/total_galon"
-                    android:layout_width="32sp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="end"
