@@ -13,7 +13,7 @@
         android:theme="@style/Theme.GalonHub"
         tools:targetApi="31">
         <activity
-            android:name=".DetailPesananActivity"
+            android:name=".DetailPesanan"
             android:exported="false" />
         <activity
             android:name=".PesananSelesaiActivity"

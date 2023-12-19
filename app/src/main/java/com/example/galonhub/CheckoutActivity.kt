@@ -68,7 +68,7 @@ class CheckoutActivity : AppCompatActivity() {
         var textGrand = findViewById<TextView>(R.id.grand)
         textGrand.text = "Rp."+grand.toString()
 
-        val pesan = findViewById<Button>(R.id.pesan)
+        val pesan = findViewById<TextView>(R.id.pesan)
         pesan.setOnClickListener{
             val halamanBaru = Intent(this@CheckoutActivity, PesananSelesaiActivity::class.java)
             startActivity(halamanBaru)

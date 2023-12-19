@@ -13,6 +13,14 @@ import com.google.firebase.auth.auth
 class HomeActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
 
+    fun extractUsername(email: String): String {
+        // Split the email address at the "@" symbol
+        val parts = email.split("@")
+
+        // The username is the first part of the split
+        return parts.first()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.homepage)
@@ -41,5 +49,10 @@ class HomeActivity : AppCompatActivity() {
             startActivity(halamanBaru)
             finish()
         }
+
+        var email = currentUser?.email
+        val nama = findViewById<TextView>(R.id.Sapa)
+        nama.text = "Halo " + extractUsername(email.toString())
     }
+
 }
