@@ -13,15 +13,40 @@
     <string name="ceklisbiru">Ceklis Biru</string>
     <string name="ceklisabuabu">Ceklis Abu Abu</string>
     <string name="aturtanggal">Kalender</string>
+    <string name="namauser">Kobo Kanaeru</string>
     <string name="keluar">Keluar</string>
-    <string name="member">Member Gold</string>
+
+    <!--  Layout Profil  -->
+    <string name="statusmember">Member Gold</string>
+    <string name="saldo_profil">Saldo</string>
+    <string name="point_profil">Point Saya</string>
+    <string name="jumlahsaldoprofil">Rp 80.000,00</string>
+    <string name="jumlahpointprofil">1.000</string>
+    <string name="biodatauser">Biodata Saya</string>
+    <string name="ubahpassword">Ubah Kata Sandi</string>
+    <string name="topup">Top Up</string>
+    <string name="vouchersaya">Voucher Saya</string>
+    <string name="historypemesanan">History Pemesanan</string>
+    <string name="tentangkami">Tentang Kami</string>
+    <string name="hubungikami">Hubungi Kami</string>
+    <!--  End Profil  -->
+
+    <!--  Layout pesananselesai  -->
+    <string name="btnprosespemesanan">Proses Pemesanan</string>
+    <string name="mappesananselesai">Gambar Map</string>
+    <string name="selamatuserps">Selamat, Kobo!</string>
+    <string name="deskripsi1ps">Pesanan kamu sudah sampai tujuan dalam waktu 6 menit saja. Dan berhasil mendapatkan 10 point</string>
+    <string name="banyakpoinps">10 poin</string>
+    <string name="btnkembalikemenuawalps">Kembali ke Menu Awal</string>
+    <string name="logopesananselesai">Pesanan Selesai</string>
+    <!--  End pesananselesai  -->
 
     <!-- Layout homepage   -->
     <!--    Text    -->
-    <string name="cari_homepage"><font size="16">Cari</font></string>
+    <string name="cari_homepage">Cari</string>
     <string name="halouser_homepage">Halo, Kobo!</string>
     <string name="welcome_homepage">Selamat datang, di Galon Hub!</string>
-    <string name="deskripsi1_homepage">Temukan kemudahan pemesanan air galon terdekat dengan beberapa sentuhan dilayar ponsel Anda.</string>
+    <string name="deskripsi1_homepage">Temukan kemudahan pemesanan air</string>
     <string name="deskripsi2_homepage">galon terdekat dengan beberapa</string>
     <string name="deskripsi3_homepage">sentuhan dilayar ponsel Anda.</string>
     <string name="layanan_homepage">Layanan yang Tersedia di Kawasan Anda</string>
@@ -161,9 +186,9 @@
     <string name="airaqua_checkout">1. Air Aqua</string>
     <string name="airbiasa_checkout">2. Air Biasa</string>
     <string name="harga1_checkout">Rp 28.000</string>
-    <string name="subtotal_checkout">SubTotal</string>
+    <string name="subtotal_checkout">SubTotal   =</string>
     <string name="harga2_checkout">Rp 35.000</string>
-    <string name="kalidua_checkout">x 2</string>temu
+    <string name="kalidua_checkout">x 2</string>
     <string name="kalisatu_checkout">x 1</string>
     <string name="jadwal_checkout">Jadwal Pengiriman</string>
     <string name="kirimsekarang_checkout">Kirim Sekarang (10 Menit)</string>
@@ -269,17 +294,40 @@
     <string name="choice">Pilih</string>
     <!-- End Fitur Isi Ulang Galon -->
 
-    <!-- Layout Fitur Delivery dan Delivery Selesai -->
-    <string name="pemesananpros">Proses Pemesanan</string>
-    <string name="kurir">Kurir Menuju Alamatmu</string>
-    <string name="sampai">( Sampai lokasi dalam waktu 6 menit )</string>
-    <string name="tujuan">Alamat : Akihabara 1291 Block 1, Tokyo, Jepang, +17219HT 16218</string>
-    <string name="done">Selamat, Kobo!</string>
-    <string name="pesanansampai">Pesanan kamu sudah sampai tujuan dalam waktu 6 menit saja.
-        Dan berhasil mendapatkan</string>
-    <string name="kembalihome">Kembali ke Menu Awal</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="menu">Menu</string>
+    <!-- LAYOUT DELIVERY -->
+    <!-- Text Delivery -->
+    <string name="prosesDelivery">Proses Pemesanan</string>
+    <string name="kurirDelivery">Kurir Menuju Alamatmu</string>
+    <string name="estimasiDelivery">( Sampai lokasi dalam waktu 6 menit )</string>
+    <string name="alamatDelivery">Akihabara 1291 Block 1, Tokyo, Jepang, +17219HT 16218</string>
+    <string name="menu">menu</string>
+    <string name="member">Member Gold</string>
 
+    <!-- Style Delivery -->
+    <style name="prosesDelivery">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#E0F4FF</item>
+        <item name="android:fontFamily">@font/outfit_semibold</item>
+    </style>
+
+    <style name="kurirDelivery">
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textColor">#373D3D</item>
+        <item name="android:fontFamily">@font/outfit_semibold</item>
+    </style>
+
+    <style name="estimasiDelivery">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textColor">#39A7FF</item>
+        <item name="android:fontFamily">@font/outfit_regular</item>
+    </style>
+
+    <style name="alamatDelivery">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#031222</item>
+        <item name="android:fontFamily">@font/outfit_light</item>
+    </style>
+    <!-- END LAYOUT DELIVERY -->
 </resources>

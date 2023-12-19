@@ -3,10 +3,9 @@ package com.example.galonhub
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.OnBackPressedCallback
-import androidx.compose.ui.geometry.times
-import kotlin.time.times
 
 class CheckoutActivity : AppCompatActivity() {
     val HargAqua = 14000
@@ -26,6 +25,8 @@ class CheckoutActivity : AppCompatActivity() {
         setContentView(R.layout.checkout)
 
         val intent = intent
+
+        onBackPressedDispatcher.addCallback(onBackInvokedCallback)
 
         var aqua = intent.getIntExtra("aqua", 0)
         var biasa = intent.getIntExtra("biasa", 0)
@@ -66,6 +67,12 @@ class CheckoutActivity : AppCompatActivity() {
         var grand = admin+ongkir+((aqua*HargAqua)+(biasa*HargaBiasa)+(galon*HargaGalon))
         var textGrand = findViewById<TextView>(R.id.grand)
         textGrand.text = "Rp."+grand.toString()
+
+        val pesan = findViewById<Button>(R.id.pesan)
+        pesan.setOnClickListener{
+            val halamanBaru = Intent(this@CheckoutActivity, PesananSelesaiActivity::class.java)
+            startActivity(halamanBaru)
+        }
 
     }
 }

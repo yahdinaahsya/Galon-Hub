@@ -16,6 +16,9 @@
             android:name=".DetailPesananActivity"
             android:exported="false" />
         <activity
+            android:name=".PesananSelesaiActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailPesanan"
             android:exported="false" />
         <activity

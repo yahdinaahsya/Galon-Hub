@@ -6,136 +6,94 @@
     android:layout_height="match_parent"
     tools:context=".PesananSelesaiActivity">
 
-    <Button
-        android:id="@+id/btnprosespemesanan"
-        android:layout_width="349dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="@color/lightblue"
-        android:fontFamily="@font/outfit_bold"
-        android:text="@string/btnprosespemesanan"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView13"
-        tools:ignore="TextContrastCheck,VisualLintButtonSize" />
-
-    <ImageView android:contentDescription="@string/fotoprofil"
-        android:id="@+id/fotoprofilpd"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.873"
-        app:layout_constraintStart_toEndOf="@+id/imageView13"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fotoprofil"
-        tools:ignore="ImageContrastCheck" />
-
-    <ImageView android:contentDescription="@string/logogalonhub"
-        android:id="@+id/imageView13"
-        android:layout_width="69dp"
-        android:layout_height="69dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.391"
-        app:layout_constraintStart_toEndOf="@+id/pengaturanps"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01"
-        app:srcCompat="@drawable/logogalonhub"
-        tools:ignore="ImageContrastCheck" />
-
-    <ImageView android:contentDescription="@string/pengaturan"
-        android:id="@+id/pengaturanps"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.043"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/buttonmenu" />
-
-    <ImageView
-        android:id="@+id/mappesananselesai"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-5dp"
-        android:contentDescription="@string/mappesananselesai"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnprosespemesanan"
-        app:srcCompat="@drawable/map2"
-        tools:ignore="ImageContrastCheck,VisualLintBounds" />
-
-    <TextView
-        android:id="@+id/popuppesananselesai"
-        android:layout_width="380dp"
-        android:layout_height="293dp"
-        android:layout_marginTop="316dp"
-        android:background="@drawable/popupdesign"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/mappesananselesai" />
-
     <LinearLayout
-        android:layout_width="350dp"
-        android:layout_height="261dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/popuppesananselesai"
-        app:layout_constraintHorizontal_bias="0.583"
-        app:layout_constraintStart_toStartOf="@+id/popuppesananselesai"
-        app:layout_constraintTop_toTopOf="@+id/popuppesananselesai"
-        app:layout_constraintVertical_bias="0.448">
+        android:background="@drawable/map2">
 
-        <TextView
-            android:id="@+id/selamatuserps"
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment_container_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="@font/outfit_bold"
-            android:text="@string/selamatuserps"
-            android:textColor="@color/blue"
-            android:textSize="24sp"
-            tools:ignore="TextContrastCheck" />
-
-        <ImageView
-            android:id="@+id/gambarpesanananselesaips"
-            android:layout_width="124dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:contentDescription="@string/logopesananselesai"
-            app:srcCompat="@drawable/pesananselesai" />
-
-        <TextView
-            android:id="@+id/deskripsipesananselesai"
-            android:layout_width="253dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:fontFamily="@font/outfit_medium"
-            android:gravity="center"
-            android:text="@string/deskripsi1ps"
-            android:textSize="16sp"
-            tools:ignore="TextSizeCheck" />
+            android:background="@drawable/rounded_panel_white"
+            android:name="com.example.galonhub.HeaderFragment"
+            />
 
         <Button
-            android:id="@+id/btnkembalikemenuawalps"
-            android:layout_width="184dp"
-            android:layout_height="51dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:backgroundTint="@color/blue"
+            android:id="@+id/btnprosespemesanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/lightblue"
             android:fontFamily="@font/outfit_bold"
-            android:text="@string/btnkembalikemenuawalps"
-            android:textSize="12sp"
-            tools:ignore="TextContrastCheck" />
+            android:text="@string/btnprosespemesanan"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:ignore="TextContrastCheck,VisualLintButtonSize" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="48dp"
+                android:background="@drawable/rounded_panel_white"
+                android:orientation="vertical"
+                android:padding="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:id="@+id/selamatuserps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/outfit_bold"
+                    android:text="@string/selamatuserps"
+                    android:textColor="@color/blue"
+                    android:textSize="24sp"
+                    tools:ignore="TextContrastCheck" />
+
+                <ImageView
+                    android:id="@+id/gambarpesanananselesaips"
+                    android:layout_width="124dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/logopesananselesai"
+                    app:srcCompat="@drawable/pesananselesai" />
+
+                <TextView
+                    android:id="@+id/deskripsipesananselesai"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/outfit_medium"
+                    android:gravity="center"
+                    android:text="@string/deskripsi1ps"
+                    android:textSize="16sp"
+                    tools:ignore="TextSizeCheck" />
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/blue"
+                    android:fontFamily="@font/outfit_bold"
+                    android:text="@string/btnkembalikemenuawalps"
+                    android:textSize="12sp"
+                    tools:ignore="TextContrastCheck" />
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
