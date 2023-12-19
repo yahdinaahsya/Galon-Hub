@@ -18,10 +18,10 @@
 
     <!-- Layout homepage   -->
     <!--    Text    -->
-    <string name="cari_homepage">Cari</string>
+    <string name="cari_homepage"><font size="16">Cari</font></string>
     <string name="halouser_homepage">Halo, Kobo!</string>
     <string name="welcome_homepage">Selamat datang, di Galon Hub!</string>
-    <string name="deskripsi1_homepage">Temukan kemudahan pemesanan air</string>
+    <string name="deskripsi1_homepage">Temukan kemudahan pemesanan air galon terdekat dengan beberapa sentuhan dilayar ponsel Anda.</string>
     <string name="deskripsi2_homepage">galon terdekat dengan beberapa</string>
     <string name="deskripsi3_homepage">sentuhan dilayar ponsel Anda.</string>
     <string name="layanan_homepage">Layanan yang Tersedia di Kawasan Anda</string>
@@ -163,7 +163,7 @@
     <string name="harga1_checkout">Rp 28.000</string>
     <string name="subtotal_checkout">SubTotal</string>
     <string name="harga2_checkout">Rp 35.000</string>
-    <string name="kalidua_checkout">x 2</string>
+    <string name="kalidua_checkout">x 2</string>temu
     <string name="kalisatu_checkout">x 1</string>
     <string name="jadwal_checkout">Jadwal Pengiriman</string>
     <string name="kirimsekarang_checkout">Kirim Sekarang (10 Menit)</string>
@@ -197,7 +197,7 @@
     <string name="more">Lihat Selengkapnya</string>
     <!-- End Layout Wawasan -->
 
-        <!-- Layout Hidrasi -->
+    <!-- Layout Hidrasi -->
     <!-- Text -->
     <string name="judulHidrasi">Biasakan dirimu untuk minum air</string>
     <string name="txtHidrasi">Menciptakan kebiasaan agar minum air teratur setiap harinya tidak bisa
@@ -278,5 +278,8 @@
     <string name="pesanansampai">Pesanan kamu sudah sampai tujuan dalam waktu 6 menit saja.
         Dan berhasil mendapatkan</string>
     <string name="kembalihome">Kembali ke Menu Awal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu">Menu</string>
 
 </resources>

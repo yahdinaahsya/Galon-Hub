@@ -14,12 +14,12 @@ class DetailPesanan : AppCompatActivity() {
     var galon = 0
 
     fun updateUI(){
-        val ui_aqua = findViewById<TextView>(R.id.textView70)
-        val ui_biasa = findViewById<TextView>(R.id.textView71)
-        val ui_galon = findViewById<TextView>(R.id.textView78)
-        val ui_total = findViewById<TextView>(R.id.textView67)
+        val ui_aqua = findViewById<TextView>(R.id.total_aqua)
+        val ui_biasa = findViewById<TextView>(R.id.total_biasa)
+        val ui_galon = findViewById<TextView>(R.id.total_galon)
+        val ui_total = findViewById<TextView>(R.id.total_semua)
 
-        var total = aqua+biasa
+        var total = aqua+biasa+galon
 
         ui_aqua.text = aqua.toString()
         ui_biasa.text = biasa.toString()
@@ -41,13 +41,13 @@ class DetailPesanan : AppCompatActivity() {
 
         onBackPressedDispatcher.addCallback(this.onBackInvokedCallback)
 
-        val addAqua = findViewById<TextView>(R.id.textView72)
+        val addAqua = findViewById<TextView>(R.id.add_aqua)
         addAqua.setOnClickListener{
             this.aqua += 1
             this.updateUI()
         }
 
-        val subAqua = findViewById<TextView>(R.id.textView73)
+        val subAqua = findViewById<TextView>(R.id.sub_aqua)
         subAqua.setOnClickListener{
             if (this.aqua != 0){
                 this.aqua -= 1
@@ -55,13 +55,13 @@ class DetailPesanan : AppCompatActivity() {
             this.updateUI()
         }
 
-        val addBiasa = findViewById<TextView>(R.id.textView74)
+        val addBiasa = findViewById<TextView>(R.id.add_biasa)
         addBiasa.setOnClickListener{
             this.biasa += 1
             this.updateUI()
         }
 
-        val subBiasa = findViewById<TextView>(R.id.textView59)
+        val subBiasa = findViewById<TextView>(R.id.sub_biasa)
         subBiasa.setOnClickListener{
             if (this.biasa != 0){
                 this.biasa -= 1
@@ -69,13 +69,13 @@ class DetailPesanan : AppCompatActivity() {
             this.updateUI()
         }
 
-        val addGalon = findViewById<TextView>(R.id.textView77)
+        val addGalon = findViewById<TextView>(R.id.add_galon)
         addGalon.setOnClickListener{
             this.galon += 1
             this.updateUI()
         }
 
-        val subBGalon = findViewById<TextView>(R.id.textView63)
+        val subBGalon = findViewById<TextView>(R.id.sub_galon)
         subBGalon.setOnClickListener{
             if (this.galon != 0){
                 this.galon -= 1
@@ -83,7 +83,7 @@ class DetailPesanan : AppCompatActivity() {
             this.updateUI()
         }
 
-        val lanjut = findViewById<Button>(R.id.button3)
+        val lanjut = findViewById<Button>(R.id.confirm_button)
         lanjut.setOnClickListener {
             val halamanBaru = Intent(this@DetailPesanan, CheckoutActivity::class.java)
             halamanBaru.putExtra("aqua", this.aqua)

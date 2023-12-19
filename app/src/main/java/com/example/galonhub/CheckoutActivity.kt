@@ -9,13 +9,9 @@ import androidx.compose.ui.geometry.times
 import kotlin.time.times
 
 class CheckoutActivity : AppCompatActivity() {
-    var aquaJml = 0
-    var biasaJml = 0
-    var galonJml = 0
-
-    var price_aqua = 14000
-    var price_biasa = 7000
-    var price_galon = 40000
+    val HargAqua = 14000
+    val HargaBiasa = 7000
+    val HargaGalon = 40000
 
     private val onBackInvokedCallback = object : OnBackPressedCallback(true){
         override fun handleOnBackPressed() {
@@ -29,48 +25,47 @@ class CheckoutActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.checkout)
 
-        onBackPressedDispatcher.addCallback(this.onBackInvokedCallback)
+        val intent = intent
 
-        aquaJml = intent.getIntExtra("aqua", 0)
-        biasaJml = intent.getIntExtra("biasa", 0)
-        galonJml = intent.getIntExtra("galon", 0)
+        var aqua = intent.getIntExtra("aqua", 0)
+        var biasa = intent.getIntExtra("biasa", 0)
+        var galon = intent.getIntExtra("galon", 0)
 
-        val aquaText = findViewById<TextView>(R.id.textView111)
-        aquaText.text = aquaJml.toString()
+        val jumlahAqua = findViewById<TextView>(R.id.jumlahAqua)
+        jumlahAqua.text = aqua.toString()
 
-        val biasaText = findViewById<TextView>(R.id.Biasa)
-        biasaText.text = biasaJml.toString()
+        val jumlahBiasa  = findViewById<TextView>(R.id.jumlahBiasa)
+        jumlahBiasa.text = biasa.toString()
 
-        val galonText = findViewById<TextView>(R.id.textView119)
-        galonText.text = galonJml.toString()
+        val jumlahGalon = findViewById<TextView>(R.id.jumlahGalon)
+        jumlahGalon.text = galon.toString()
 
-        val aquaTotal = findViewById<TextView>(R.id.textView)
-        aquaTotal.text = "Rp."+(aquaJml*price_aqua).toString()
+        val totalAqua = findViewById<TextView>(R.id.total_aqua)
+        totalAqua.text = "Rp."+(aqua*HargAqua).toString()
 
-        val biasaTotal = findViewById<TextView>(R.id.BiasaTotal)
-        biasaTotal.text = "Rp."+(biasaJml*price_biasa).toString()
+        val totalBiasa = findViewById<TextView>(R.id.total_biasa)
+        totalBiasa.text = "Rp."+(biasa*HargaBiasa).toString()
 
-        val galonTotal = findViewById<TextView>(R.id.textView120)
-        galonTotal.text = "Rp."+(galonJml*price_galon).toString()
+        val totalGalon = findViewById<TextView>(R.id.total_galon)
+        totalGalon.text = "Rp."+(galon*HargaGalon).toString()
 
-        var total = (aquaJml*price_aqua) + (biasaJml*price_biasa) + (galonJml*price_galon)
-        val totalText = findViewById<TextView>(R.id.textView118)
-        totalText.text = "Rp."+total.toString()
+        val subtotal = findViewById<TextView>(R.id.subtotal)
+        subtotal.text = "Subtotal Rp."+((aqua*HargAqua)+(biasa*HargaBiasa)+(galon*HargaGalon)).toString()
 
-        val subTotalText = findViewById<TextView>(R.id.textView133)
-        subTotalText.text = "Rp."+total.toString()
+        val subtotal_2 = findViewById<TextView>(R.id.subtotal_2)
+        subtotal_2.text = "Rp."+((aqua*HargAqua)+(biasa*HargaBiasa)+(galon*HargaGalon)).toString()
 
-        var nilaiOngkir = (2000*(galonJml+aquaJml+galonJml))
-        val ongkir = findViewById<TextView>(R.id.textView133)
-        ongkir.text = nilaiOngkir.toString()
+        var ongkir = (aqua+biasa+galon)*1000
+        val textOngkir = findViewById<TextView>(R.id.ongkir)
+        textOngkir.text= "Rp."+ongkir.toString()
 
-        var nilaiAdmin = 1000
-        val admin = findViewById<TextView>(R.id.textView334)
-        admin.text = "Rp."+nilaiAdmin.toString()
+        var admin = 2000
+        val textAdmin = findViewById<TextView>(R.id.admin)
+        textAdmin.text = "Rp."+admin.toString()
 
-        var grandTotal = nilaiAdmin+nilaiOngkir+total
-        val grand = findViewById<TextView>(R.id.textView445)
-        grand.text = grandTotal.toString()
+        var grand = admin+ongkir+((aqua*HargAqua)+(biasa*HargaBiasa)+(galon*HargaGalon))
+        var textGrand = findViewById<TextView>(R.id.grand)
+        textGrand.text = "Rp."+grand.toString()
 
     }
 }

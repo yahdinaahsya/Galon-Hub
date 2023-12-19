@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
@@ -21,10 +22,10 @@ class HomeActivity : AppCompatActivity() {
 
         val intent = intent
 
-        val tombol = findViewById<ImageView>(R.id.imageView9)
-        tombol.setOnClickListener {
+        val pesan = findViewById<LinearLayout>(R.id.pesan)
+        pesan.setOnClickListener {
             if (currentUser != null) {
-                val halamanBaru = Intent(this@HomeActivity, ProfilActivity::class.java)
+                val halamanBaru = Intent(this@HomeActivity, MitraTerdekatActivity::class.java)
                 startActivity(halamanBaru)
                 finish()
             }else{
@@ -34,21 +35,7 @@ class HomeActivity : AppCompatActivity() {
             }
         }
 
-        val tombolPesan = findViewById<TextView>(R.id.textView24)
-        tombolPesan.setOnClickListener {
-            if (currentUser != null){
-                val halamanBaru = Intent( this@HomeActivity, MitraTerdekatActivity::class.java)
-                startActivity(halamanBaru)
-                finish()
-            }else{
-                val halamanBaru = Intent( this@HomeActivity, LoginActivity::class.java)
-                startActivity(halamanBaru)
-                finish()
-            }
-
-        }
-
-        val tombolWawasan = findViewById<TextView>(R.id.textView25)
+        val tombolWawasan = findViewById<LinearLayout>(R.id.wawasan)
         tombolWawasan.setOnClickListener{
             val halamanBaru = Intent( this@HomeActivity, WawasanActivity::class.java)
             startActivity(halamanBaru)

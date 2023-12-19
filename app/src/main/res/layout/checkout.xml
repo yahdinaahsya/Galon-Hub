@@ -4,607 +4,287 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CheckoutActivity">
-
-    <ImageView
-        android:id="@+id/pengaturan"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="16dp"
-        android:contentDescription="@string/pengaturan"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.043"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/buttonmenu" />
-
-    <ImageView
-        android:id="@+id/imageView34"
-        android:layout_width="69dp"
-        android:layout_height="69dp"
-        android:layout_marginTop="4dp"
-        android:contentDescription="@string/logogalonhub"
-        app:layout_constraintEnd_toStartOf="@+id/fotoprofil"
-        app:layout_constraintStart_toEndOf="@+id/pengaturan"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logogalonhub"
-        tools:ignore="ImageContrastCheck" />
-
-    <ImageView
-        android:id="@+id/fotoprofil"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:contentDescription="@string/fotoprofil"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/pengaturan"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fotoprofil"
-        tools:ignore="ImageContrastCheck" />
-
-    <Button
-        android:id="@+id/btnpembayarancheckout"
-        android:layout_width="349dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="8dp"
-        android:backgroundTint="@color/lightblue"
-        android:fontFamily="@font/outfit_bold"
-        android:text="@string/pembayaran_checkout"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView34"
-        tools:ignore="TextContrastCheck,VisualLintButtonSize" />
-
-    <TextView
-        android:id="@+id/textView109"
-        android:layout_width="346dp"
-        android:layout_height="121dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/inputlogin1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnpembayarancheckout" />
-
-    <TextView
-        android:id="@+id/textView110"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/outfit_semibold"
-        android:text="@string/detailpesanan_checkout"
-        android:textColor="@color/black"
-        android:textSize="11sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView109"
-        app:layout_constraintEnd_toEndOf="@+id/textView109"
-        app:layout_constraintHorizontal_bias="0.04"
-        app:layout_constraintStart_toStartOf="@+id/textView109"
-        app:layout_constraintTop_toTopOf="@+id/textView109"
-        app:layout_constraintVertical_bias="0.076" />
-
-    <TextView
-        android:id="@+id/textView118"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="4dp"
-        android:fontFamily="@font/outfit_semibold"
-        android:text="@string/harga2_checkout"
-        android:textColor="@color/lightblue"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView109"
-        app:layout_constraintEnd_toEndOf="@+id/textView109"
-        tools:ignore="TextContrastCheck" />
-
-    <TextView
-        android:id="@+id/textView117"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/outfit_semibold"
-        android:text="@string/subtotal_checkout"
-        android:textColor="@color/lightblue"
-        android:textSize="12sp"
-        tools:ignore="TextContrastCheck"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="249dp" />
-
-    <TextView
-        android:id="@+id/textView121"
-        android:layout_width="346dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/inputlogin1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView109" />
-
-    <TextView
-        android:id="@+id/textView122"
-        android:layout_width="346dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/inputlogin1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView121" />
-
-    <TextView
-        android:id="@+id/textView123"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:fontFamily="@font/outfit_semibold"
-        android:text="@string/detailpesanan_checkout"
-        android:textColor="@color/black"
-        android:textSize="11sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView121"
-        app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="@+id/textView121"
-        app:layout_constraintTop_toTopOf="@+id/textView121" />
-
-    <TextView
-        android:id="@+id/textView124"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/outfit_bold"
-        android:text="@string/nama"
-        android:textColor="@color/black"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView121"
-        app:layout_constraintHorizontal_bias="0.145"
-        app:layout_constraintStart_toStartOf="@+id/textView121"
-        app:layout_constraintTop_toBottomOf="@+id/textView123" />
-
-    <TextView
-        android:id="@+id/textView125"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:fontFamily="@font/outfit_regular"
-        android:text="@string/nomorhp"
-        android:textColor="@color/black"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView124"
-        app:layout_constraintStart_toEndOf="@+id/textView124"
-        app:layout_constraintTop_toTopOf="@+id/textView124"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <TextView
-        android:id="@+id/textView126"
-        android:layout_width="262dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="3dp"
-        android:fontFamily="@font/outfit_regular"
-        android:text="@string/lokasi"
-        android:textColor="@color/black"
-        android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/textView124"
-        app:layout_constraintTop_toBottomOf="@+id/textView124"
-        tools:ignore="TextSizeCheck" />
-
-    <TextView
-        android:id="@+id/textView127"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/outfit_semibold"
-        android:text="@string/jadwal_checkout"
-        android:textColor="@color/black"
-        android:textSize="11sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView122"
-        app:layout_constraintEnd_toEndOf="@+id/textView122"
-        app:layout_constraintHorizontal_bias="0.056"
-        app:layout_constraintStart_toStartOf="@+id/textView122"
-        app:layout_constraintTop_toTopOf="@+id/textView122"
-        app:layout_constraintVertical_bias="0.085" />
-
-    <TextView
-        android:id="@+id/textView128"
-        android:layout_width="270dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="4dp"
-        android:background="@drawable/boxwithblueborder"
-        android:fontFamily="@font/outfit_semibold"
-        android:gravity="center_vertical"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp"
-        android:text="@string/kirimsekarang_checkout"
-        android:textColor="@color/blue"
-        android:textSize="11sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView122"
-        app:layout_constraintHorizontal_bias="0.37"
-        app:layout_constraintStart_toStartOf="@+id/textView127"
-        app:layout_constraintTop_toBottomOf="@+id/textView127"
-        tools:ignore="TextSizeCheck,TextContrastCheck" />
-
-    <TextView
-        android:id="@+id/textView129"
-        android:layout_width="270dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="6dp"
-        android:background="@drawable/boxwithborder"
-        android:fontFamily="@font/outfit_semibold"
-        android:gravity="center_vertical"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp"
-        android:text="@string/aturjadwal_checkout"
-        android:textSize="11sp"
-        app:layout_constraintStart_toStartOf="@+id/textView128"
-        app:layout_constraintTop_toBottomOf="@+id/textView128"
-        tools:ignore="TextSizeCheck" />
-
-    <TextView
-        android:id="@+id/textView130"
-        android:layout_width="346dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/inputlogin1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.523"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView122" />
-
-    <TextView
-        android:id="@+id/textView134"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-5dp"
-        android:fontFamily="@font/outfit_semibold"
-        android:text="@string/metodepembayaran_checkout"
-        android:textColor="@color/black"
-        android:textSize="11sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView130"
-        app:layout_constraintEnd_toEndOf="@+id/textView130"
-        app:layout_constraintHorizontal_bias="0.058"
-        app:layout_constraintStart_toStartOf="@+id/textView130"
-        app:layout_constraintTop_toTopOf="@+id/textView130"
-        app:layout_constraintVertical_bias="0.119" />
-
-    <TextView
-        android:id="@+id/textView135"
-        android:layout_width="270dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="4dp"
-        android:background="@drawable/boxwithblueborder"
-        android:fontFamily="@font/outfit_semibold"
-        android:gravity="center_vertical"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp"
-        android:text="@string/saldo_checkout"
-        android:textColor="@color/blue"
-        android:textSize="11sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView130"
-        app:layout_constraintHorizontal_bias="0.403"
-        app:layout_constraintStart_toStartOf="@+id/textView134"
-        app:layout_constraintTop_toBottomOf="@+id/textView134"
-        tools:ignore="TextSizeCheck,TextContrastCheck" />
-
-    <TextView
-        android:id="@+id/textView136"
-        android:layout_width="270dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="6dp"
-        android:background="@drawable/boxwithborder"
-        android:fontFamily="@font/outfit_semibold"
-        android:gravity="center_vertical"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp"
-        android:text="@string/tfbank_checkout"
-        android:textSize="11sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView135"
-        app:layout_constraintStart_toStartOf="@+id/textView135"
-        app:layout_constraintTop_toBottomOf="@+id/textView135"
-        tools:ignore="TextSizeCheck" />
-
-    <TextView
-        android:id="@+id/textView137"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-3dp"
-        android:fontFamily="@font/outfit_semibold"
-        android:text="@string/ongkir_checkout"
-        android:textColor="@color/blue"
-        android:textSize="11sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView122"
-        app:layout_constraintEnd_toEndOf="@+id/textView129"
-        app:layout_constraintTop_toBottomOf="@+id/textView129"
-        tools:ignore="TextContrastCheck" />
-
-    <ImageView
-        android:id="@+id/imageView36"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="5dp"
-        android:contentDescription="@string/ceklisbiru"
-        app:layout_constraintBottom_toBottomOf="@+id/textView128"
-        app:layout_constraintEnd_toEndOf="@+id/textView128"
-        app:layout_constraintHorizontal_bias="0.976"
-        app:layout_constraintStart_toStartOf="@+id/textView128"
-        app:layout_constraintTop_toTopOf="@+id/textView128"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ceklisbiru"
-        tools:ignore="ImageContrastCheck" />
-
-    <ImageView
-        android:id="@+id/imageView37"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_marginTop="3dp"
-        android:contentDescription="@string/ceklisabuabu"
-        app:layout_constraintBottom_toBottomOf="@+id/textView129"
-        app:layout_constraintEnd_toEndOf="@+id/textView129"
-        app:layout_constraintHorizontal_bias="0.96"
-        app:layout_constraintStart_toStartOf="@+id/textView129"
-        app:layout_constraintTop_toTopOf="@+id/textView129"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ceklisabuabu"
-        tools:ignore="ImageContrastCheck" />
-
-    <ImageView
-        android:id="@+id/imageView38"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="4dp"
-        android:contentDescription="@string/aturtanggal"
-        app:layout_constraintBottom_toBottomOf="@+id/textView129"
-        app:layout_constraintStart_toEndOf="@+id/textView129"
-        app:layout_constraintTop_toTopOf="@+id/textView129"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/kalender"
-        tools:ignore="ImageContrastCheck" />
-
-    <Button
-        android:id="@+id/btnpesansekarangcheckout"
-        android:layout_width="166dp"
-        android:layout_height="42dp"
-        android:backgroundTint="@color/yellow"
-        android:text="@string/pesansekarang_checkout"
-        android:textColor="@color/white"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
-
-    <ImageView
-        android:id="@+id/imageView39"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="14dp"
-        android:contentDescription="@string/ceklisbiru"
-        app:layout_constraintBottom_toBottomOf="@+id/textView135"
-        app:layout_constraintEnd_toEndOf="@+id/textView135"
-        app:layout_constraintTop_toTopOf="@+id/textView135"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ceklisbiru"
-        tools:ignore="ImageContrastCheck" />
-
-    <ImageView
-        android:id="@+id/imageView40"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="14dp"
-        android:contentDescription="@string/ceklisabuabu"
-        app:layout_constraintBottom_toBottomOf="@+id/textView136"
-        app:layout_constraintEnd_toEndOf="@+id/textView136"
-        app:layout_constraintTop_toTopOf="@+id/textView136"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ceklisabuabu"
-        tools:ignore="ImageContrastCheck" />
+    tools:context=".CheckoutActivity" >
 
     <LinearLayout
-        android:id="@+id/linearLayout5"
-        android:layout_width="325dp"
-        android:layout_height="73dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@+id/textView109"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView109">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView113"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Galon Aqua" />
-
-            <TextView
-                android:id="@+id/textView112"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Rp. 14.000" />
-
-            <TextView
-                android:id="@+id/textView111"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="0" />
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Rp.0" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView211"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Air Biasa" />
-
-            <TextView
-                android:id="@+id/textView212"
-                android:layout_width="50dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="Rp.7.000" />
-
-            <TextView
-                android:id="@+id/Biasa"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="0" />
-
-            <TextView
-                android:id="@+id/BiasaTotal"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Rp.0" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView115"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Galon" />
-
-            <TextView
-                android:id="@+id/textView116"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Rp.40.000" />
-
-            <TextView
-                android:id="@+id/textView119"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="0" />
-
-            <TextView
-                android:id="@+id/textView120"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Rp.0" />
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
-        android:layout_height="137dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="12dp"
-        android:orientation="vertical"
-        android:padding="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnpesansekarangcheckout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView130"
-        app:layout_constraintVertical_bias="0.0">
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment_container_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.galonhub.HeaderFragment"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:padding="20dp"
+            android:background="@drawable/rounded_panel_gray"
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView131"
-                android:layout_width="30sp"
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Subtotal" />
+                android:text="Detail Pesanan"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Air Aqua" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Rp.14.000" />
+
+                <TextView
+                    android:id="@+id/jumlahAqua"
+                    android:layout_width="32sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/total_aqua"
+                    android:layout_width="32sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="Rp.0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Air Biasa" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Rp.7.000" />
+
+                <TextView
+                    android:id="@+id/jumlahBiasa"
+                    android:layout_width="32sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/total_biasa"
+                    android:layout_width="32sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="Rp.0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Galon" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Rp.40.000" />
+
+                <TextView
+                    android:id="@+id/jumlahGalon"
+                    android:layout_width="32sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/total_galon"
+                    android:layout_width="32sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="Rp.0" />
+
+            </LinearLayout>
 
             <TextView
-                android:id="@+id/textView133"
-                android:layout_width="30sp"
+                android:id="@+id/subtotal"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Rp.0" />
+                android:paddingVertical="10dp"
+                android:text="Subtotal Rp.0" />
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:padding="20dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/rounded_panel_gray"
+            android:orientation="vertical">
+
 
             <TextView
-                android:id="@+id/textView234"
-                android:layout_width="30sp"
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Ongkit" />
+                android:textStyle="bold"
+                android:text="Detail Pengiriman" />
 
             <TextView
-                android:id="@+id/textView235"
-                android:layout_width="30sp"
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Rp.0" />
+                android:text="Kobo kanaeru" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alamat1_mt" />
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:padding="20dp"
+            android:background="@drawable/rounded_panel_gray"
+            android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textView333"
-                android:layout_width="30sp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Admin" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView334"
-                android:layout_width="30sp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Rp.0" />
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Subtotal" />
+
+                <TextView
+                    android:id="@+id/subtotal_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ongkir" />
+
+                <TextView
+                    android:id="@+id/ongkir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Admin" />
+
+                <TextView
+                    android:id="@+id/admin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Total" />
+
+                <TextView
+                    android:id="@+id/grand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
         </LinearLayout>
 
-        <LinearLayout
+        <Button
+            android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView444"
-                android:layout_width="30sp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Total" />
-
-            <TextView
-                android:id="@+id/textView445"
-                android:layout_width="30sp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Rp.0" />
-        </LinearLayout>
-
+            android:layout_marginVertical="20dp"
+            android:text="Pesan Sekarang" />
 
     </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -41,7 +41,8 @@
             android:exported="false" />
         <activity
             android:name=".RegisterActivity"
-            android:exported="true">
+            android:exported="true"
+            android:windowSoftInputMode="stateVisible">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -33,7 +33,9 @@ class MitraTerdekatActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.mitra_terdekat)
 
-        val ro = findViewById<TextView>(R.id.textView85)
+        onBackPressedDispatcher.addCallback(onBackInvokedCallback)
+
+/*        val ro = findViewById<TextView>(R.id.textView85)
         ro.setOnClickListener {
             val halamanBaru = Intent(this@MitraTerdekatActivity, DetailPesanan::class.java)
             startActivity(halamanBaru)
@@ -44,6 +46,6 @@ class MitraTerdekatActivity : AppCompatActivity() {
             val halamanBaru = Intent(this@MitraTerdekatActivity, HomeActivity::class.java)
             startActivity(halamanBaru)
             finish()
-        }
+        }*/
     }
 }
