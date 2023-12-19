@@ -13,7 +13,13 @@
         android:theme="@style/Theme.GalonHub"
         tools:targetApi="31">
         <activity
-            android:name=".DetailPesananActivity"
+            android:name=".DetailPesanan"
+            android:exported="false" />
+        <activity
+            android:name=".PesananSelesaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailPesanan"
             android:exported="false" />
         <activity
             android:name=".WawasanActivity"
@@ -38,7 +44,8 @@
             android:exported="false" />
         <activity
             android:name=".RegisterActivity"
-            android:exported="true">
+            android:exported="true"
+            android:windowSoftInputMode="stateVisible">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

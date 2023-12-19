@@ -300,6 +300,8 @@
     <string name="kurirDelivery">Kurir Menuju Alamatmu</string>
     <string name="estimasiDelivery">( Sampai lokasi dalam waktu 6 menit )</string>
     <string name="alamatDelivery">Akihabara 1291 Block 1, Tokyo, Jepang, +17219HT 16218</string>
+    <string name="menu">menu</string>
+    <string name="member">Member Gold</string>
 
     <!-- Style Delivery -->
     <style name="prosesDelivery">

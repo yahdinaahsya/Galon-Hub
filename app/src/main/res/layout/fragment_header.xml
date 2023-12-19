@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".HeaderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="20dp"
+        tools:ignore="UselessParent">
+
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@drawable/buttonmenu"
+            android:contentDescription="@string/menu"/>
+
+        <ImageView
+            android:id="@+id/header_logo"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/logo_dp"
+            android:src="@drawable/logogalonhub"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/fotoprofil"
+            android:src="@drawable/fotoprofil"
+            tools:ignore="ImageContrastCheck"/>
+
+    </LinearLayout>
+</FrameLayout>

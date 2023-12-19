@@ -19,7 +19,7 @@ class RegisterActivity : AppCompatActivity() {
         // Check if user is signed in (non-null) and update UI accordingly.
         val currentUser = auth.currentUser
         if (currentUser != null) {
-            val halamanBaru = Intent(this@RegisterActivity, HomeActivity::class.java)
+            val halamanBaru = Intent(this@RegisterActivity, LoginActivity::class.java)
             startActivity(halamanBaru)
             finish()
         }
